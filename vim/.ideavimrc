@@ -1,0 +1,40 @@
+let mapleader = ","
+set easymotion
+" 启用原生vim插件扩展
+Plug '<extension-github-reference>'
+" 高亮搜索
+set hlsearch
+" 自动定位到输入中的字符串，不需要回车搜索
+set incsearch
+" 显示当前的模式
+set showmode
+" 映射idea常用快捷键
+" nnoremap 是normal非递归映射、normap是insert模式下的非递归映射
+" 重命名
+nnoremap <leader>r :action RenameElement<CR>
+" 格式化当前文件
+nnoremap <leader>f :action ReformatCode<CR><esc>
+" quick java doc
+nnoremap <leader>q :action QuickJavaDoc<CR>
+" 设置 定位文件到代码视图
+nnoremap <leader>` <ESC>:action SelectInProjectView<CR>
+" previous method
+nnoremap [[ <ESC>:action MethodUp<CR>
+" " next method
+nnoremap ]] <ESC>:action MethodDown<CR>
+" 显示当前的模式
+set showmode
+" 开启idea project视图插件，选择文件等操作...
+set NERDTree
+Plug 'preservim/nerdtree`
+Plug 'https://github.com/preservim/nerdtree'
+Plug 'https://github.com/scrooloose/nerdtree'
+Plug 'scrooloose/nerdtree'
+Plug 'nerdtree'
+nnoremap <leader>n :NERDTree<CR>
+" 下一个tab
+nnoremap <C-J> :tabn <CR>
+" 上一个tab
+nnoremap <C-K> :tabp <CR>
+" 关闭当前tab
+nnoremap <C-x> :tabclose <CR>

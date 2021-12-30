@@ -1,0 +1,9 @@
+Font=JetBrains Mono
+FontHeight=11
+Columns=160
+Rows=39
+BoldAsFont=no
+Locale=zh_CN
+Charset=UTF-8
+Language=zh_CN
+ThemeFile=gruvbox
