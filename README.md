@@ -1,13 +1,20 @@
-# MyVimConf
+#vim & ideavim
+
+# Cygwin
+
 window下模拟linux环境，使用linux命令<br />​
 
 自带的仿真终端很好用：mintty<br />​<br />
 <a name="lWVQj"></a>
+
 ## 安装apt-cyg  指令安装器
 <br />
 <a name="w2qf1"></a>
+
 ## 配置cygwin-terminal
+
 <a name="N1KlA"></a>
+
 ### mintty终端配置
  `vim ~/.minttyrc`
 ```bash
@@ -208,7 +215,9 @@ authorized_keys  id_rsa  id_rsa.pub
 ```
 <br />
 <a name="zi8pf"></a>
+
 ## idea集成
+
 shell path:
 ```bash
 "c:\cygwin64\bin\sh" -lic "source ~/.bash_profile; cd ${OLDPWD-.}; bash"
