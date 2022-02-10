@@ -1,0 +1,19 @@
+[user]
+        name = yh
+        email = 642127048@qq.com
+[http]
+        sslverify = false
+[core]
+        quotepath = false
+[merge]
+        tool = intellij
+[mergetool "intellij"]
+        cmd = idea64 merge \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\"
+        trustExitCode = true
+[diff]
+        tool = intellij
+[difftool "intellij"]
+        cmd = idea64 diff \"$LOCAL\" \"$REMOTE\"
+[difftool]
+        prompt = false
+
