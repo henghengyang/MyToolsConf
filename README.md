@@ -1,4 +1,11 @@
-#vim & ideavim
+# vim & ideavim
+## ideavim
+ideavim nerdtree插件 在移动的时候会自动打开光标所在文件，需要在project view小齿轮中禁用以下两个选项：
+
+1. open files with single click
+2. enable preview tab
+
+具体可以参考github的链接[ref](https://github.com/JetBrains/ideavim/wiki/NERDTree-support)
 
 ## vim 跳转
 
