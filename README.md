@@ -5,7 +5,7 @@ ideavim nerdtree插件 在移动的时候会自动打开光标所在文件，需
 1. open files with single click
 2. enable preview tab
 
-具体可以参考github的链接[ref](https://github.com/JetBrains/ideavim/wiki/NERDTree-support)
+具体可以参考github的链接[ref](https://github.com/JetBrains/ideavim/wiki/NERDTree-support#troubleshooting)
 
 ## vim 跳转
 
