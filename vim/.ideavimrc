@@ -38,7 +38,7 @@ nnoremap <leader>n :NERDTree<CR>
 nnoremap <C-J> :tabn <CR>
 " 上一个tab
 nnoremap <C-K> :tabp <CR>
-" 关闭当前tab
+" 关闭当前tab;split mode的时候 会造成一个bug ; 和ideavim兼容不是很好， splitmode 的时候还是用 <C-w> s/v来分离窗口 <C-w> c来关闭窗口
 nnoremap <C-x> :tabclose <CR>
 " normal模式默认使用英文
 ":set keep-english-in-normal "在normal保持英文状态
