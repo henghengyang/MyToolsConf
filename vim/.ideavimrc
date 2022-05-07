@@ -1,4 +1,6 @@
 let mapleader = ","
+" 共享系统剪切板
+set clipboard+=unnamed
 set easymotion
 " 启用原生vim插件扩展
 Plug '<extension-github-reference>'
@@ -38,3 +40,6 @@ nnoremap <C-J> :tabn <CR>
 nnoremap <C-K> :tabp <CR>
 " 关闭当前tab
 nnoremap <C-x> :tabclose <CR>
+" normal模式默认使用英文
+":set keep-english-in-normal "在normal保持英文状态
+":set keep-english-in-normal-and-restore-in-insert "在normal模式保持英文状态,并在回到insert时恢复输入
