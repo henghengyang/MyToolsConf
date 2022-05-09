@@ -1,4 +1,6 @@
 # vim & ideavim
+键位图:
+![](images/vim.png)
 ## ideavim
 ideavim nerdtree插件 在移动的时候会自动打开光标所在文件，需要在project view小齿轮中禁用以下两个选项：
 
