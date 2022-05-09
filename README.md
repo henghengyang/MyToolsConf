@@ -50,6 +50,21 @@ nC-T 返回跳转 n 次
 
 $ 跳转至行尾 
 ```
+## vimdiff
+```
+]c: next compare移动到下一个不同的地方
+[c: prev compare移动到上一个不同的地方
+
+zo : zoom open 打开折叠
+zc : zoom close 关闭折叠
+
+合并操作：
+
+dp: do paste 将当前行复制到另一窗口
+do: do override 将另一窗口对应行覆盖到当前窗口
+
+:diffupdate 重新比对两个文件
+```
 
 # Cygwin
 

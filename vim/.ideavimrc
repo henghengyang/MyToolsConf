@@ -1,7 +1,7 @@
 let mapleader = ","
 " 共享系统剪切板
 set clipboard+=unnamed
-" set easymotion 这里禁用掉,使用idea ace jump插件
+set easymotion
 " 启用原生vim插件扩展
 Plug '<extension-github-reference>'
 " 高亮搜索
@@ -48,5 +48,5 @@ nnoremap <C-x> :tabclose <CR>
 map f :action AceAction<CR>
 " Press `F` to activate Target Mode
 map F :action AceTargetAction<CR>
-" Press `g` to activate Line Mode
-map g :action AceLineAction<CR>
+" Press `g` to activate Line Mode 使用leader键组合,避免和原有的指令冲突
+map <leader> g :action AceLineAction<CR>
