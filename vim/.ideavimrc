@@ -29,10 +29,12 @@ set showmode
 " 开启idea project视图插件，选择文件等操作...
 set NERDTree
 Plug 'preservim/nerdtree`
-Plug 'https://github.com/preservim/nerdtree'
-Plug 'https://github.com/scrooloose/nerdtree'
-Plug 'scrooloose/nerdtree'
-Plug 'nerdtree'
+"Plug 'https://github.com/preservim/nerdtree'
+"Plug 'https://github.com/scrooloose/nerdtree'
+"Plug 'scrooloose/nerdtree'
+"Plug 'nerdtree'
+" 列编辑多光标插件
+Plug 'terryma/vim-multiple-cursors'
 nnoremap <leader>n :NERDTree<CR>
 " 下一个tab
 nnoremap <C-J> :tabn <CR>
