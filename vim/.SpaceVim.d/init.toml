@@ -34,3 +34,9 @@ auto_completion_tab_key_behavior = "smart"
 name = 'shell'
 default_position = 'top'
 default_height = 30
+[[layers]]
+  name = 'core'
+  #在文件树内显示隐藏的文件，默认是false
+  filetree_show_hidden=true
+  #平滑滚屏
+  enable_smooth_scrolling=false
